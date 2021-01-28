@@ -15,22 +15,22 @@ we can using potentiometer and arduino changing sound volume of linux os live
 
 first of all you have to making circuit like the below picture :
 
-[4.jpg link]
+![setup circuit](https://github.com/iamAmirrezaSaki/linuxino/blob/master/images/4.JPG)
 
 ### Step 2 : initialize arduino for programming
 
 after making the circuit in step 1, you have to connect your arduino to your PC and in arduino IDE and choose your Arduino type: 
 
-[1.png link]
+![choosing arduino](https://github.com/iamAmirrezaSaki/linuxino/blob/master/images/1.png)
 
 Make sure the Arduino is connected to the computer via the Tools -> port tab, and also remember the name of the device (in this case, the device is /dev/ttyUSB0).
 
-[2.png link]
+![no-alt](https://github.com/iamAmirrezaSaki/linuxino/blob/master/images/2.png)
 
 
-Finally, bring up the desired code from the File -> examples -> Firmata -> standardFirmata tab 
+Finally, bring up the desired code from the File -> examples -> Firmata -> standardFirmata tab and uploade it to your Arduino.
 
-[3.png link]
+![no-alt](https://github.com/iamAmirrezaSaki/linuxino/blob/master/images/3.png)
 
 ### Step 3 : stating Arduino programming via python
 
@@ -55,3 +55,5 @@ python src/PotentiometricSoundChanger.py
 ```
 
 #### at the end we can see that we can changing sound volume using a potentiometer.
+
+this will be updated ... 
